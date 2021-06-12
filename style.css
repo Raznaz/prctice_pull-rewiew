@@ -37,9 +37,15 @@ ul {
 
 .footer {
   display: flex;
-  min-height: 40px;
-  vertical-align: middle;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 33%;
+  min-height: 100px;
   text-align: center;
+  vertical-align: middle;
+  background-color: #ccc;
 }
