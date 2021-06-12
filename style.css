@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: #eee;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+ul {
+  display: flex;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+  padding: 50px 100px;
+  background-color: #0f0;
+}
+
+#about {
+  text-align: center;
+  border: 1px solid #000;
+}
+#about p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  min-height: 40px;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
